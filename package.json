@@ -25,6 +25,7 @@
     "@nestjs/core": "^10.4.4",
     "@nestjs/platform-express": "^10.4.4",
     "cross-env": "^7.0.3",
+    "ignore": "^6.0.2",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
   },
