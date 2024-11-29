@@ -6,11 +6,6 @@ import { Response } from 'express';
 export class AppController {
   constructor(private readonly codegenService: CodegenService) {}
 
-  @Get()
-  sayHello() {
-    return 'Hello, World!';
-  }
-
   @Get('/codegen')
   async codegen(@Res({ passthrough: true }) res: Response) {
     const zipStream = await this.codegenService.codegen();

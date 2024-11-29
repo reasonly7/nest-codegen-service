@@ -1,5 +1,5 @@
-# nest-scaffold
+# nest-code-service
 
-A nest project template I usually use（我平时使用的 NestJS 项目模版）
+A service for generating code（一个用于生成代码的服务）
 
-See👀: []()
+See👀: [./src/app.controller.ts](./src/app.controller.ts)
